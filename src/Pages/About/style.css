@@ -1,0 +1,15 @@
+.pic{
+    position: relative;
+    width:100%;
+    display: flex;
+    height: 70%;
+}
+.text{
+    /* position: left; */
+    font-weight: 10;
+    font-style: italic;
+    color: rgb(58, 8, 105);
+    top: 300px; 
+  left:50px; 
+  width: 100%; 
+}

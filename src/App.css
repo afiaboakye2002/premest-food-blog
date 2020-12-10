@@ -1,38 +1,45 @@
+body{
+  background:rgb(221, 216, 226);
+  font-family: 'Oswald', sans-serif;
+}
+
 .App {
-  text-align: center;
+  /* width: 100vw; */
+  margin: 0 auto;
+  /* border:1px solid #333; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.img {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.bg-image {
+  width: 50%;
+  height: 30%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fa {
+  margin-right: 15px;
+}
+
+.fa-facebook {
+  color: rgb(30, 122, 228);
+}
+
+.fa-twitter {
+  color: rgb(23, 174, 219);
+}
+
+.fa-instagram {
+  color: rgb(223, 108, 41);
+  
+}
+.fa-whatsapp {
+  color: rgb(63, 189, 14);
+}
+.btn btn-primary btn-block{
+  color: rgb(23, 170, 170);
+  text-decoration-color: white;
 }
